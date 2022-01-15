@@ -21,5 +21,28 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDwDnrQcCQWGhlHA1E2sfE1THJ2_gUdLnM",
+    authDomain: "interactiveworld-f242e.firebaseapp.com",
+    projectId: "interactiveworld-f242e",
+    storageBucket: "interactiveworld-f242e.appspot.com",
+    messagingSenderId: "765415427050",
+    appId: "1:765415427050:web:5b4656200c6214767fc093",
+    measurementId: "G-B7JCWC4KL7"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
   </body>
 </html>
