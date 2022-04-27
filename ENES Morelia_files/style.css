@@ -4983,7 +4983,7 @@ Footer Area Css
 .footer-middle {
     background: #1a1a1a none repeat scroll 0 0;
     padding: 30px 0 30px;
-    margin-top: 650px;
+    margin-top: 750px;
 }
 
 .footer-middle {
@@ -6366,7 +6366,13 @@ portfolio DITALS AREA CSS
 .portfolio_info p span {
     width: 150px;
 }
-
+.titulo-virtual {
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+ position: absolute;
+ margin-top: 120px;
+ margin-left: 150px;
+}
 
 /* Standard syntax */
 
@@ -6398,4 +6404,5 @@ portfolio DITALS AREA CSS
         top: 10px;
         opacity: 0;
     }
+  
 }
