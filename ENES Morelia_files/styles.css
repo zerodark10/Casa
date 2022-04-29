@@ -2321,7 +2321,9 @@ blockquote::before {
 .loop-content .blog_readmore a:hover {
     color: #0A3560;
 }
-
+ .body{
+     background-color: #0a3560;
+ }
 .loop-content .blog_description {
     padding: 0px;
     min-height: 100px;
